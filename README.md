@@ -1,1 +1,3 @@
 # Crazy-Library-Time
+
+In this CLT, I chose to work with both buzz, a simple to use sound library, and anime.js, a highly customizable animation library. I chose these two libraries because I thought it would be a fun idea to make a "dancer" named Molly, and a dancer needs music (or at least sounds). So enjoy Molly's performance as he plays out four scripted dances accompanied by some random sound bites that I found on the internet!

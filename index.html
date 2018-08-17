@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+    <script src="/Users/mac/Downloads/anime-master 2/anime.min.js"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the Carnival!</h1>
+    <button id="Thunder">Nature's Applause</button>
+    <button id="Missile">Fire Away!</button>
+    <button id="Grenade">BOOM, BABY!</button>
+    <button id="Synth">Synthetic Nights</button>
+    <div class="Carnival">
+        <div class="Molly"></div>
+    </div>
+    <script>
+        if (!buzz.isSupported)  {
+            alert("Does not work!")
+        }
+        if (!buzz.isOGGSupported)   {
+            alert("Does not work!")
+        }
+        let synth = new buzz.sound("https://freesound.org/people/Clinthammer/sounds/179562/download/179562__clinthammer__clinthammermusic-ts-bass.wav")
+        let missile = new buzz.sound("https://freesound.org/people/NHMWretched/sounds/151858/download/151858__nhmwretched__missile-firing-fl.mp3")
+        let grenade = new buzz.sound("https://freesound.org/people/ljudman/sounds/33245/download/33245__ljudman__grenade.wav")
+        let thunder = new buzz.sound("https://freesound.org/people/greenvwbeetle/sounds/240791/download/240791__greenvwbeetle__thunder-3.flac")
+    </script>
+</body>
+</html>
